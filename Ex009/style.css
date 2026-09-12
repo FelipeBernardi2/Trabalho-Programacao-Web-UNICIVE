@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333333;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.item-tarefa {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+input {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+label {
+    font-size: 1.1rem;
+    color: #333333;
+    cursor: pointer;
+    user-select: none;
+}
+
+input:checked + label{
+    text-decoration: line-through;
+    color: #888888;
+}

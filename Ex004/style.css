@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333333;
+  font-family: Arial, sans-serif;
+}
+
+.container .lista {
+    margin-bottom: 35px;
+}
+
+.container .data {
+    margin-bottom: 10px;
+}
+
+.container .descricao {
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style: circle;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.links {
+    color: #3399ff;
+    transition: 0.3s;
+}
+
+.links:hover {
+    color: #333333;
+    text-decoration: underline;
+}
+
+.links:active {
+    color: #ff3333;
+}
